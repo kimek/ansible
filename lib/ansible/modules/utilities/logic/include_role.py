@@ -78,7 +78,7 @@ EXAMPLES = """
 - include_role:
     name: myrole
 
-- name: Run tasks/other.yaml instead of 'main'
+- name: Run myrole/other.yaml instead of 'main'
   include_role:
     name: myrole
     tasks_from: other
